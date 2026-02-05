@@ -2,7 +2,9 @@ import React from 'react'
 
 const CustomerProfilePage = () => {
   return (
-    <div>CustomerProfilePage</div>
+    <div>
+      <h1>Customer Profile Page</h1>
+    </div>
   )
 }
 

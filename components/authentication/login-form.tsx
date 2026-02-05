@@ -20,13 +20,59 @@ export function LoginForm({
   className,
   ...props
 }: React.ComponentProps<"div">) {
+
+
+  const demoCredentials = {
+    admin: {
+      email: "admin@gmail.com",
+      password: "admin123",
+    },
+    customer: {
+      email: "customer@gmail.com",
+      password: "customer123",
+    },
+    seller: {
+      email: "seller@gmail.com",
+      password: "seller123",
+    },
+  };
   return (
     <div className={cn("flex flex-col gap-6", className)} {...props}>
       <Card>
         <CardHeader>
           <CardTitle>Login to your account</CardTitle>
           <CardDescription>
-            Enter your email below to login to your account
+          <div className="flex items-center mb-3 gap-2">
+        <div>
+          <h1 className="text-lg  font-semibold">Login</h1>
+          <small className="text-gray-600">
+            Join us today and start your journey
+          </small>
+        </div>
+      </div>
+      <div className="flex items-center my-5 justify-around">
+        <Button
+          variant="default"
+          size="sm"
+          className="cursor-pointer"
+        >
+           Admin
+        </Button>
+        <Button
+          variant="default"
+          size="sm"
+          className="cursor-pointer"
+        >
+           Seller
+        </Button>
+        <Button
+          variant="default"
+          size="sm"
+          className="cursor-pointer"
+        >
+           Customer
+        </Button>
+      </div>
           </CardDescription>
         </CardHeader>
         <CardContent>

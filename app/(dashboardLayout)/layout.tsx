@@ -10,7 +10,11 @@ const layout = ({
     seller:React.ReactNode,
 }) => {
   return (
-    <div>layout</div>
+    <div>
+      {admin}
+      {customer}
+      {seller}
+    </div>
   )
 }
 

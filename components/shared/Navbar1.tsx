@@ -129,7 +129,7 @@ export default function Navbar1() {
                     <DropdownMenuLabel>My Account</DropdownMenuLabel>
                     <DropdownMenuSeparator />
                     <DropdownMenuItem>
-                      <Link href="/profile">Profile</Link>
+                      <Link href="/customer/profile">Profile</Link>
                     </DropdownMenuItem>
                     <DropdownMenuItem>
                       <Link href="/orders-details">Order Details</Link>

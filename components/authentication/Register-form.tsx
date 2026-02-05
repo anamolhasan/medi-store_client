@@ -15,7 +15,7 @@ import {
 import { Input } from "@/components/ui/input"
 import Link from "next/link"
 
-export function SignupForm({ ...props }: React.ComponentProps<typeof Card>) {
+export function RegisterForm({ ...props }: React.ComponentProps<typeof Card>) {
   return (
     <Card {...props}>
       <CardHeader>
