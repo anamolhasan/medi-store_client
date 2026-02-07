@@ -1,17 +1,23 @@
+'use client'
 
-import Footer from '@/components/layout/Footer'
+import Footer1 from '@/components/layout/Footer1'
 import Navbar1 from '@/components/layout/Navbar1'
+
+
+
 import React from 'react'
 
 const layout = ({children}:{children:React.ReactNode}) => {
   return (
     <div>
+      {/* <Navbar2 /> */}
         <Navbar1 />
         {/* <Navbar /> */}
         <main className='container mx-auto'>
             {children}
         </main>
-        <Footer />
+        {/* <Footer /> */}
+        <Footer1 />
     </div>
   )
 }

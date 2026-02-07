@@ -24,7 +24,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { toast } from "sonner";
 import z, { email } from "zod";
-import { Badge } from "../ui/badge";
+import { Badge } from "../../ui/badge";
 import { FcGoogle } from "react-icons/fc";
 
 const formSchema = z.object({

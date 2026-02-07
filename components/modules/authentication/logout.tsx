@@ -2,7 +2,7 @@ import { authClient } from '@/lib/auth-client'
 import { useRouter } from 'next/navigation'
 import React from 'react'
 import { toast } from 'sonner'
-import { Button } from '../ui/button'
+import { Button } from '../../ui/button'
 import { LogOutIcon } from "lucide-react";
 
 const LogOut = () => {
